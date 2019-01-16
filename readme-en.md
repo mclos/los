@@ -46,7 +46,7 @@ Los provides a unified API interface to achieve the benefits of writing once, ru
 ```
 
 ##### Operation Instructions
-1. Run a single file, please use the format xxx/los.exe xxx/xx.los
+1. Run a single file, please use the format xxx/los.exe xxx/xx.los,Or a file with a suffix of los,Drag to los.exe.
 2. Run the file in losfat and you can double-click los.exe directly, it will be the losfat file as the directory
 
 ##### Compiling los.exe

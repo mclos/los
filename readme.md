@@ -46,7 +46,7 @@ los提供统一的api接口，实现一次编写，到处运行的好处，提�
 ```
 
 ##### 运行说明
-1. 运行单个文件，请使用 xxx/los.exe xxx/xx.los的格式运行
+1. 运行单个文件，请使用 xxx/los.exe xxx/xx.los的格式运行,或把los后缀的文件，拖到los.exe。
 2. 运行losfat中的文件可以直接双击los.exe,它会已losfat的文件作为跟目录
 
 ##### 编译los.exe
