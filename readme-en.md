@@ -1,4 +1,4 @@
-##### [中文](readme.md)
+##### [中文](https://github.com/mclos/los/blob/master/readme.md)
 ##### Introduction
 1. Los is a c-compiled virtual machine. It uses llvm/clang as its front end, and losld does the backend to compile the source code to generate the los directive file. The Los virtual machine is written in 100% c language and runs on mcu and pc.
 Los (core) accounts for about 15Kb of rom.
