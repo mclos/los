@@ -2,14 +2,15 @@
  /  los -  system module  R0.1
  /-----------------------------------------------------------------------------/
  /
- / Copyright (c) 2014-2017 LP电子,All Rights Reserved.
+ / Copyright (c) 2014-2017 LP电子,All Rights Reserved.Author's mailbox:lgtbp@126.com.
  /
- / 未经授权，禁止商用。
+ / 未经授权，禁止商用。Commercial use is prohibited without authorization.
  /----------------------------------------------------------------------------*/
 #include "los.h"
-//下面这个数值数是clang编译出来的，使用前请将clang路径添加到系统环境
+//test数值是clang编译出来的，使用前请将clang路径添加到系统环境
+//The test value is compiled by clang. Please add the clang path to the system environment before use.
 //clang -c test.c
-//losld -o test test.o  生成的los文件
+//losld -o test test.o  out .los file
 /* 这是test.c内容
 #include<los.h>
 #define  set_callback(...)   los_call(0,##__VA_ARGS__)
@@ -81,7 +82,7 @@ int main(){
   getchar();
   return 0;
 }
-/** 执行输出:
+/** 执行输出:Execution output:
 printf_num=20
 printf_num=31
 res:17

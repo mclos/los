@@ -2,9 +2,9 @@
  /  los -  system module  R0.1
  /-----------------------------------------------------------------------------/
  /
- / Copyright (c) 2014-2017 LP电子,All Rights Reserved.
+ / Copyright (c) 2014-2017 LP电子,All Rights Reserved.Author's mailbox:lgtbp@126.com.
  /
- / 未经授权，禁止商用。
+ / 未经授权，禁止商用。Commercial use is prohibited without authorization.
  /----------------------------------------------------------------------------*/
 #include<los.h>
 #define  set_callback(...)   los_call(0,##__VA_ARGS__)
