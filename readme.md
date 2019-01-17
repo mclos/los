@@ -50,7 +50,7 @@ Author's mailbox:lgtbp@126.com.
         los.exe
         test_gpu.los
 ```
-### 迷你版本
+### 迷你版本(los-mini文件夹内)
 ##### 运行说明
 1. 将bin文件添加到系统环境,进入los-mini文件夹内
 2. 执行clang编译:```clang -c test.c```
@@ -149,7 +149,7 @@ Author's mailbox: lgtbp@126.com.
         Los.exe
         Test_gpu.los
 ```
-### Mini version
+### Mini version (in the los-mini folder)
 ##### Operation Instructions
 1. Add the bin file to the system environment and enter the los-mini folder.
 2. Execute clang compilation: ```clang -c test.c```
