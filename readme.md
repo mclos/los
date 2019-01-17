@@ -72,6 +72,7 @@ uint32_t los_app_first(uint8_t *addr);
 #define lpram_malloc malloc
 #define lpram_free free
 ```
+####  [运行过程](https://mclos.github.io/los%E8%BF%B7%E4%BD%A0%E7%89%88%E6%95%99%E7%A8%8B/)
 
 ### 功能完善版本
 ##### 运行说明
@@ -171,6 +172,7 @@ Uint32_t los_app_first(uint8_t *addr);
 #define lpram_malloc malloc
 #define lpram_free free
 ```
+####  [working process](https://mclos.github.io/en/Los%20mini%20tutorial/)
 
 ### Functionally perfect version
 ##### Operation Instructions
