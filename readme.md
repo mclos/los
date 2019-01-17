@@ -1,7 +1,7 @@
 ##### [English Language](#jump)
  ![los](https://raw.githubusercontent.com/mclos/los/master/favicon.ico)
 ##### 简介
-1. Los是一个c语言编译型的虚拟机。它使用llvm/clang作为其前端，losld做后端对源代码进行编译，生成los指令文件。Los虚拟机是100%c语言编写的，其可运行在mcu与pc上。
+1. Los是一个c语言编译型的虚拟机。它使用[llvm/clang](https://llvm.org/)作为其前端，losld做后端对源代码进行编译，生成los指令文件。Los虚拟机是100%c语言编写的，其可运行在mcu与pc上。
 los(核心)占rom 8Kb左右(mini)。
 los提供统一的api接口，实现一次编写，到处运行的好处，提高代码可重复使用率。
 Author's mailbox:lgtbp@126.com.
@@ -100,7 +100,7 @@ uint32_t los_app_first(uint8_t *addr);
 <span id="jump">English Language</span>
 
 ##### Introduction
-1. Los is a c-compiled virtual machine. It uses llvm/clang as its front end, and losld does the backend to compile the source code to generate the los directive file. The Los virtual machine is written in 100% c language and runs on mcu and pc.
+1. Los is a c-compiled virtual machine. It uses [llvm/clang](https://llvm.org/) as its front end, and losld does the backend to compile the source code to generate the los directive file. The Los virtual machine is written in 100% c language and runs on mcu and pc.
 Los (core) accounts for about rom 8Kb (mini).
 Los provides a unified API interface to achieve the benefits of writing once, running everywhere, and improving code reusability.
 Author's mailbox: lgtbp@126.com.
