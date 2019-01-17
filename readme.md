@@ -1,4 +1,5 @@
 ##### [English Language](#jump)
+ ![los](https://raw.githubusercontent.com/mclos/los/master/favicon.ico)
 ##### 简介
 1. Los是一个c语言编译型的虚拟机。它使用llvm/clang作为其前端，losld做后端对源代码进行编译，生成los指令文件。Los虚拟机是100%c语言编写的，其可运行在mcu与pc上。
 los(核心)占rom 8Kb左右(mini)。
