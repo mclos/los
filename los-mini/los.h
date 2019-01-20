@@ -69,6 +69,7 @@ uint64_t *los_get_u64p(losc_t *lost, uint32_t num);
 int64_t *los_get_s64p(losc_t *lost, uint32_t num);
 float *los_get_floatp(losc_t *lost, uint32_t num);
 double *los_get_doublep(losc_t *lost, uint32_t num);
+void los_return(losc_t *lp, int32_t ret);
 
 /**
 移植请修改内存管理api

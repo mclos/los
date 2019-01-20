@@ -1101,15 +1101,14 @@ uint32_t los_rerun(losc_t *lp)
 	uint8_t op = 0;
 	while (1)
 	{
-		if (lp->os_flag & 0x80)
-				return 0;
+		//if (lp->os_flag & 0x80)return 0;
 		op = *lp->glb_psc;
 		lp->glb_psc++;
-		if (op > ARRLENs(los_cmd_api))
-		{
-			res = 13;
-			break;
-		}
+		// if (op > ARRLENs(los_cmd_api))
+		// {
+			// res = 13;
+			// break;
+		// }
 		res = los_cmd_api[op](lp);
 		if (res)
 		{
@@ -1295,7 +1294,7 @@ static uint8_t los_init_code(losc_t *lp, uint8_t *buf)
 	lp->ram_len = lp->end;
 	if (lp->end % 4)
 		lp->end += 4 - lp->end % 4;
-	lp->ram = lpram_malloc(lp->end + heap);
+	lp->ram =(uint8_t *)lpram_malloc(lp->end + heap);
 	if (lp->ram == 0)
 		return 7;
 	memset(lp->ram, 0, lp->end + heap);
