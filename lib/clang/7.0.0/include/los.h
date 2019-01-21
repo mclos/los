@@ -8,6 +8,10 @@
  /----------------------------------------------------------------------------*/
 #ifndef _LOS_CALL_API_H_
 #define _LOS_CALL_API_H_
+
+#ifdef  __cplusplus  
+extern "C" {  
+#endif  
  /**
  * @brief los系统,用户自定义函数
  *
@@ -16,5 +20,7 @@
  * @return int
  */
 int los_call(int id, ...);
-
+#ifdef  __cplusplus  
+}  
+#endif  /* end of __cplusplus */  
 #endif
