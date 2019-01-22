@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------/
- /  los -  system module  R0.1
+ /  los -  system module  R0.1.1
  /-----------------------------------------------------------------------------/
  /
  / Copyright (c) 2014-2017 LP电子,All Rights Reserved.Author's mailbox:lgtbp@126.com.
@@ -22,10 +22,10 @@ typedef union _cpu_reg_t {
 	uint32_t u32;
 	int32_t s32;
 	float f32;
-	uint8_t data[8];
-	uint64_t u64;
-	int64_t s64;
-	double d64;
+	uint8_t data[4];
+	uint32_t u64;
+	int32_t s64;
+	float d64;
 } cpu_reg_t;
 typedef struct _losc_t
 {
@@ -55,9 +55,6 @@ int16_t los_get_s16(losc_t *lost, uint32_t num);
 uint32_t los_get_u32(losc_t *lost, uint32_t num);
 int32_t los_get_s32(losc_t *lost, uint32_t num);
 float los_get_float(losc_t *lost, uint32_t num);
-uint64_t los_get_u64(losc_t *lost, uint32_t num);
-int64_t los_get_s64(losc_t *lost, uint32_t num);
-double los_get_double(losc_t *lost, uint32_t num);
 void *los_get_voidp(losc_t *lost, uint32_t num);
 uint8_t *los_get_u8p(losc_t *lost, uint32_t num);
 int8_t *los_get_s8p(losc_t *lost, uint32_t num);
@@ -65,10 +62,7 @@ uint16_t *los_get_u16p(losc_t *lost, uint32_t num);
 int16_t *los_get_s16p(losc_t *lost, uint32_t num);
 uint32_t *los_get_u32p(losc_t *lost, uint32_t num);
 int32_t *los_get_s32p(losc_t *lost, uint32_t num);
-uint64_t *los_get_u64p(losc_t *lost, uint32_t num);
-int64_t *los_get_s64p(losc_t *lost, uint32_t num);
 float *los_get_floatp(losc_t *lost, uint32_t num);
-double *los_get_doublep(losc_t *lost, uint32_t num);
 void los_return(losc_t *lp, int32_t ret);
 
 /**
