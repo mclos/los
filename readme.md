@@ -4,7 +4,7 @@
 1. Los是一个c/c++语言编译型的虚拟机。它使用[llvm/clang](https://llvm.org/)作为其前端，losld做后端对源代码进行编译，生成los指令文件。Los虚拟机是100%c语言编写的，其可运行在mcu与pc上。
 los(核心)占rom 8Kb左右(mini)。
 los提供统一的api接口，实现一次编写，到处运行的好处，提高代码可重复使用率。
-Author's mailbox:lgtbp@126.com.
+Author's mailbox:lgtbp@126.com;QQ:708745662
 2. [具体请看](https://mclos.github.io/)
 ##### 文件简介
 ```
